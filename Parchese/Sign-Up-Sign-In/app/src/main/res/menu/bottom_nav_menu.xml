@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicioFragment"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/mapaFragment"
+        android:title="Mapa"/>
+
+    <item
+        android:id="@+id/crearFragment"
+        android:title="Crear"/>
+
+    <item
+        android:id="@+id/chatsFragment"
+        android:title="Chats"/>
+
+    <item
+        android:id="@+id/perfilFragment"
+        android:title="Perfil"/>
+</menu>

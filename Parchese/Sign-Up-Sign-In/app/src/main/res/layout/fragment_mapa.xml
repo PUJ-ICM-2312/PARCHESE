@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#CCFFFFFF"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eventos cercanos"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/evento1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1. Adventure Hike in the Mountains"/>
+
+        <TextView
+            android:id="@+id/evento2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Urban Art Gallery Tour"/>
+
+        <TextView
+            android:id="@+id/evento3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sunset Beach Yoga Session"/>
+
+    </LinearLayout>
+
+</FrameLayout>
