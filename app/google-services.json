@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225319441396",
+    "project_id": "parchese-eda2d",
+    "storage_bucket": "parchese-eda2d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225319441396:android:45f5f94b898612bde4dfa1",
+        "android_client_info": {
+          "package_name": "com.rajkishorbgp.sign_up_sign_in"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeSNXg6E7rpL4WMY8LdudFN-IXORUD8JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
