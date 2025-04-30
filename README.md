@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sign-up-sign-in
 
 This is a mobile application project called "Sign-up-sign-in" built using Kotlin and XML in Android Studio. The application provides features such as sign up, sign in, forgot password, and logout. It utilizes Firebase as the backend database.
@@ -87,3 +88,6 @@ The project file structure is organized as follows:
    <img align="left" alt="3 sereenshot" width="400" src="https://github.com/rajkishorbgp/my-personal-data-/blob/main/AndroidProjects/Sign-Up-Sign-in/3.png">
  
    <img align="right" alt="4 sereenshot" width="400" src="https://github.com/rajkishorbgp/my-personal-data-/blob/main/AndroidProjects/Sign-Up-Sign-in/4.png">
+=======
+
+>>>>>>> fca787685c4aa76f808862aadf2b1d961bb8db7b

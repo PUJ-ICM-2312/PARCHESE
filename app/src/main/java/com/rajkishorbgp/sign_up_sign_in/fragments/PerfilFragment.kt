@@ -30,6 +30,7 @@ class PerfilFragment : Fragment() {
     }
 
     private fun cargarDatosUsuario() {
+
         binding.tvNombre.text = "Carlos Rodríguez"
         binding.tvUsuario.text = "@carlos_r"
         binding.tvDescripcion.text = "Entusiasta de deportes al aire libre y actividades culturales. Me encanta conocer gente nueva y participar en eventos comunitarios."
@@ -40,6 +41,7 @@ class PerfilFragment : Fragment() {
 
     private fun configurarCerrarSesion() {
         binding.btnCerrarSesion.setOnClickListener {
+
             findNavController().navigate(R.id.action_perfilFragment_to_signInActivity)
             requireActivity().finish()
         }

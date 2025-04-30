@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_home.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_home.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_activity_sign_in.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_user_profile_image.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/user_profile_image.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/navigation_nav_graph.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_item_message_sent.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_chat_detail.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_chat_detail.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_activity_edit_profile.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_people.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_people.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_signup_screen.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/signup_screen.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_activity_user_profile.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_item_chat.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/item_chat.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_inicio.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_inicio.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_signin_screen.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/signin_screen.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_card_background.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_bg_message_sent.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/bg_message_sent.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_perfil.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_activity_forgot.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/activity_forgot.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_map.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_map.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_item_message_received.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_time.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_time.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_crear.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_crear.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_mapa.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_mapa.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_add.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_add.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_activity_sign_up.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_ic_launcherapp.png.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/ic_launcherapp.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_input.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/input.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_map.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/drawable_bg_message_received.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/drawable/bg_message_received.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_chats.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-58:/layout_fragment_chat_detail2.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-60:/layout/fragment_chat_detail2.xml"
+    }
+]

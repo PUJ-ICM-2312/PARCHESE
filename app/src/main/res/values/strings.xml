@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Sign-Up-Sign-In</string>
+
+    <string name="app_name">Parchese</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
@@ -15,5 +16,18 @@
     <string name="last_name">Last name</string>
     <string name="first_name">First name</string>
     <string name="todo">TODO</string>
+
+
+    <string name="imagen_evento">Imagen del evento</string>
+    <string name="seleccionar_imagen">Seleccionar imagen</string>
+    <string name="titulo_evento">Título del evento</string>
+    <string name="descripcion">Descripción</string>
+    <string name="seleccionar_fecha">Seleccionar fecha</string>
+    <string name="seleccionar_hora">Seleccionar hora</string>
+    <string name="seleccionar_ubicacion">Seleccionar ubicación</string>
+    <string name="crear_evento">Crear Evento</string>
     <string name="registration">REGISTRATION</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
 </resources>
