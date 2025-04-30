@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_chat_detail2.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_chat_detail2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_chat_detail.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\item_message_received.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\item_message_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\item_chat.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\item_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\item_message_sent.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\item_message_sent.xml"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:/layout/fragment_mapa.xml",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-61:/layout/fragment_mapa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_crear.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_crear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_mapa.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_mapa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_perfil.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_inicio.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-mergeDebugResources-58:\\layout\\fragment_chats.xml",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_chats.xml"
+    }
+]

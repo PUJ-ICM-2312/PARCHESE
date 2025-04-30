@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_mapa.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_mapa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_input.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_item_message_sent.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\item_message_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_chats.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:/layout_fragment_mapa.xml.flat",
+        "source": "com.rajkishorbgp.sign_up_sign_in.app-main-61:/layout/fragment_mapa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_inicio.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_item_chat.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\item_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_chat_detail.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_user_profile_image.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\user_profile_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_item_message_received.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\item_message_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_bg_message_received.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\bg_message_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_chat_detail2.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_chat_detail2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_people.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_launcherapp.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_launcherapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_add.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_map.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_map.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_bg_message_sent.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\bg_message_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\layout_fragment_crear.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\layout\\fragment_crear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\drawable_ic_time.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\drawable\\ic_time.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-merged_res-59:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolás\\.gradle\\daemon\\8.9\\com.rajkishorbgp.sign_up_sign_in.app-main-61:\\mipmap-mdpi\\ic_launcher.png"
+    }
+]
