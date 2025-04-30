@@ -11,12 +11,10 @@
         android:name="com.rajkishorbgp.sign_up_sign_in.fragments.InicioFragment"
         android:label="Inicio"
         tools:layout="@layout/fragment_inicio"/>
-
     <fragment
         android:id="@+id/mapaFragment"
         android:name="com.rajkishorbgp.sign_up_sign_in.fragments.MapaFragment"
         android:label="Mapa"/>
-
     <fragment
         android:id="@+id/crearFragment"
         android:name="com.rajkishorbgp.sign_up_sign_in.fragments.CrearFragment"
@@ -24,6 +22,9 @@
         <action
             android:id="@+id/action_crearFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_crearFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
     </fragment>
 
     <fragment
@@ -34,7 +35,6 @@
             android:id="@+id/action_mapFragment_to_crearFragment"
             app:destination="@id/crearFragment" />
     </fragment>
-
     <fragment
         android:id="@+id/chatsFragment"
         android:name="com.rajkishorbgp.sign_up_sign_in.fragments.ChatsFragment"
@@ -58,6 +58,11 @@
             android:id="@+id/action_perfilFragment_to_signInActivity"
             app:destination="@id/signInActivity"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.rajkishorbgp.sign_up_sign_in.fragments.CameraFragment"
+        android:label="Cámara" />
 
     <activity
         android:id="@+id/signInActivity"

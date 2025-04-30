@@ -17,6 +17,8 @@
     <string name="first_name">First name</string>
     <string name="todo">TODO</string>
 
+    <string name="ubicacion_seleccionada">Ubicación seleccionada: %1$s</string>
+    <string name="imagen_seleccionada">Imagen seleccionada</string>
 
     <string name="imagen_evento">Imagen del evento</string>
     <string name="seleccionar_imagen">Seleccionar imagen</string>

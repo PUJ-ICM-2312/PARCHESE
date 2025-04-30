@@ -8,7 +8,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Contenedor principal de la actividad -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -17,7 +16,6 @@
             android:elevation="4dp"
             android:padding="16dp">
 
-            <!-- Imagen principal -->
             <ImageView
                 android:id="@+id/ivActivityImage"
                 android:layout_width="match_parent"
@@ -25,7 +23,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_people" />
 
-            <!-- Información básica -->
             <TextView
                 android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
@@ -53,7 +50,6 @@
                     android:layout_marginStart="8dp"/>
             </LinearLayout>
 
-            <!-- Botones de acción -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -84,7 +80,6 @@
 
         </LinearLayout>
 
-        <!-- Texto de términos -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

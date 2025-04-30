@@ -11,29 +11,30 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/ivEventoImagen"
+            android:id="@+id/ivImagenSeleccionada"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:contentDescription="@string/imagen_evento"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:background="#CCCCCC"
+            android:layout_marginBottom="8dp" />
 
         <Button
             android:id="@+id/btnSeleccionarImagen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/seleccionar_imagen"/>
+            android:text="@string/seleccionar_imagen" />
 
-        <!-- Campos del formulario -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="16dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etTitulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/titulo_evento"/>
+                android:hint="@string/titulo_evento" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -47,28 +48,30 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/descripcion"
                 android:inputType="textMultiLine"
-                android:minLines="3"/>
+                android:minLines="3" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:weightSum="2">
 
             <Button
                 android:id="@+id/btnSeleccionarFecha"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/seleccionar_fecha"/>
+                android:text="@string/seleccionar_fecha" />
 
             <Button
                 android:id="@+id/btnSeleccionarHora"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/seleccionar_hora"/>
+                android:text="@string/seleccionar_hora"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
 
         <Button
@@ -76,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="@string/seleccionar_ubicacion"/>
+            android:text="@string/seleccionar_ubicacion" />
 
         <Button
             android:id="@+id/btnCrearEvento"
@@ -85,7 +88,6 @@
             android:layout_marginTop="24dp"
             android:text="@string/crear_evento"
             android:backgroundTint="@color/teal_200"
-            android:textColor="@color/white"/>
-
+            android:textColor="@color/white" />
     </LinearLayout>
 </ScrollView>
