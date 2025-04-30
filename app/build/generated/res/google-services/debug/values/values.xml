@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">225319441396</string>
-    <string name="google_api_key" translatable="false">AIzaSyAeSNXg6E7rpL4WMY8LdudFN-IXORUD8JM</string>
-    <string name="google_app_id" translatable="false">1:225319441396:android:45f5f94b898612bde4dfa1</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAeSNXg6E7rpL4WMY8LdudFN-IXORUD8JM</string>
-    <string name="google_storage_bucket" translatable="false">parchese-eda2d.firebasestorage.app</string>
-    <string name="project_id" translatable="false">parchese-eda2d</string>
-</resources>
