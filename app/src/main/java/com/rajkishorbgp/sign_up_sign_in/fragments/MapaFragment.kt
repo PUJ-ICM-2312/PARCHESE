@@ -22,6 +22,13 @@ import kotlin.math.*
 import com.android.volley.Request
 import java.text.SimpleDateFormat
 import java.util.*
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.os.Build
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
+
 
 class MapaFragment : Fragment(), OnMapReadyCallback {
 
@@ -30,6 +37,7 @@ class MapaFragment : Fragment(), OnMapReadyCallback {
     private var currentRoute: Polyline? = null
     private var currentDestinationMarker: Marker? = null
     private var currentLocation: LatLng? = null
+    private var marcadorUsuario: Marker? = null
 
     private lateinit var map: GoogleMap
     private lateinit var fusedLocationClient: FusedLocationProviderClient
@@ -48,6 +56,58 @@ class MapaFragment : Fragment(), OnMapReadyCallback {
         _binding = FragmentMapaBinding.inflate(inflater, container, false)
         return binding.root
     }
+
+    private fun mostrarNotificacion(nombreEvento: String) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(
+                    requireContext(),
+                    android.Manifest.permission.POST_NOTIFICATIONS
+                ) != PackageManager.PERMISSION_GRANTED
+            ) {
+                requestPermissions(arrayOf(android.Manifest.permission.POST_NOTIFICATIONS), 1001)
+                return
+            }
+        }
+
+        val channelId = "evento_channel"
+        val notificationId = 101
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val name = "Canal de Eventos"
+            val descriptionText = "Notificaciones de rutas a eventos"
+            val importance = NotificationManager.IMPORTANCE_HIGH
+            val channel = NotificationChannel(channelId, name, importance).apply {
+                description = descriptionText
+            }
+            val notificationManager: NotificationManager =
+                requireContext().getSystemService(NotificationManager::class.java)
+            notificationManager.createNotificationChannel(channel)
+        }
+
+        val builder = NotificationCompat.Builder(requireContext(), channelId)
+            .setSmallIcon(R.drawable.ic_notification)
+            .setContentTitle("Párchese - Listo pal' evento")
+            .setContentText("Ruta iniciada al Evento: $nombreEvento")
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
+            .setCategory(NotificationCompat.CATEGORY_MESSAGE)
+            .setAutoCancel(true)
+
+        with(NotificationManagerCompat.from(requireContext())) {
+            notify(notificationId, builder.build())
+        }
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == 1001) {
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(requireContext(), "Permiso de notificaciones concedido", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(requireContext(), "Permiso de notificaciones DENEGADO", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -76,19 +136,35 @@ class MapaFragment : Fragment(), OnMapReadyCallback {
 
             locationCallback = object : LocationCallback() {
                 override fun onLocationResult(result: LocationResult) {
-
-
                     val location = result.lastLocation ?: return
                     val currentLatLng = LatLng(location.latitude, location.longitude)
                     currentLocation = currentLatLng
+
+                    if (marcadorUsuario == null) {
+                        marcadorUsuario = map.addMarker(
+                            MarkerOptions()
+                                .position(currentLatLng)
+                                .title("Tú estás aquí")
+                                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+                        )
+                    } else {
+                        marcadorUsuario?.position = currentLatLng
+                    }
+
                     if (!ubicacionInicialMostrada) {
                         map.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 13f))
                         ubicacionInicialMostrada = true
                     }
+                    map.animateCamera(CameraUpdateFactory.newLatLng(currentLatLng))
 
                     actualizarCirculo(currentLatLng)
-                    cargarEventosCercanos(currentLatLng, 10.0)
+                    cargarEventosCercanos(currentLatLng, 5.0)
+
+                    currentDestinationMarker?.let { destino ->
+                        obtenerRutaConDirectionsAPI(currentLatLng, destino.position)
+                    }
                 }
+
 
             }
 
@@ -119,6 +195,9 @@ class MapaFragment : Fragment(), OnMapReadyCallback {
 
         binding.botonIr.setOnClickListener {
             currentLocation?.let { origin ->
+                currentDestinationMarker?.title?.let { tituloEvento ->
+                    mostrarNotificacion(tituloEvento)
+                }
                 obtenerRutaConDirectionsAPI(origin, marker.position)
             }
         }
@@ -189,7 +268,7 @@ class MapaFragment : Fragment(), OnMapReadyCallback {
         currentCircle = map.addCircle(
             CircleOptions()
                 .center(center)
-                .radius(10000.0)
+                .radius(5000.0)
                 .strokeColor(0x5500AAFF)
                 .fillColor(0x2200AAFF)
                 .strokeWidth(2f)

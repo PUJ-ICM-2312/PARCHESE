@@ -19,20 +19,18 @@ class SignUpActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-        // Configurar el botón para cambiar a la pantalla de inicio de sesión
         binding.loginTab.setOnClickListener {
             startActivity(Intent(this, SignInActivity::class.java))
-            finish()  // Finalizar esta actividad para evitar que el usuario regrese al presionar "Atrás"
+            finish()
         }
 
-        // Configurar el botón de "Crear cuenta"
+
         binding.signupButton.setOnClickListener {
             val name = binding.signupName.text.toString()
             val email = binding.signupEmail.text.toString()
             val password = binding.signupPassword.text.toString()
             val confirmPassword = binding.signupConfirm.text.toString()
 
-            // Validación de campos
             if (email.isNotEmpty() && password.isNotEmpty() && name.isNotEmpty() && password == confirmPassword) {
                 // Crear cuenta en Firebase
                 firebaseAuth.createUserWithEmailAndPassword(email, password)
@@ -43,12 +41,12 @@ class SignUpActivity : AppCompatActivity() {
                             startActivity(Intent(this, SignInActivity::class.java))
                             finish()
                         } else {
-                            // Mostrar error si ocurre un problema al crear la cuenta
+
                             Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
                         }
                     }
             } else {
-                // Mensajes de error dependiendo de la validación
+
                 val errorMessage = when {
                     password != confirmPassword -> "Las contraseñas no coinciden"
                     email.isEmpty() || password.isEmpty() || name.isEmpty() -> "Completa todos los campos"
