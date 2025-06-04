@@ -31,5 +31,7 @@
     <string name="registration">REGISTRATION</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="desc_huella">Iniciar sesión con huella</string>
+
 
 </resources>

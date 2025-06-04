@@ -2,26 +2,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permisos -->
     <uses-permission android:name="android.permission.CAMERA" />
-
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <!-- Compatibilidad con Android 9 (Pie) y versiones anteriores -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28"
         tools:ignore="ScopedStorage" />
-
-    <uses-feature
-        android:required="false"
-        android:name="android.hardware.camera.any"/>
-
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <application
+    <!-- Características opcionales -->
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
 
+    <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -31,6 +34,7 @@
         android:theme="@style/Theme.SignUpSignIn"
         tools:targetApi="31">
 
+        <!-- Provider para compartir archivos -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -41,45 +45,41 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-
+        <!-- Actividades secundarias -->
         <activity
             android:name=".UserProfileActivity"
             android:exported="false" />
         <activity
             android:name=".EditProfileActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ForgotActivity"
             android:exported="false" />
+
+        <!-- Actividad de registro (SignUp) -->
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
 
-
+        <!-- Clave de API de Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDwP1L0jOei9N0MttvklTqqFYvag9Argvg" />
 
+        <!-- Actividad de inicio de sesión (SignIn) -->
         <activity
             android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-
-
+        <!-- Actividad principal de la app -->
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
-
-        <activity
-            android:name=".SignUpActivity"
             android:exported="false" />
 
     </application>
-
 </manifest>
