@@ -11,6 +11,47 @@
             <EditText android:id="@+id/signup_email" android:layout_width="350dp" android:layout_height="60dp" android:layout_marginTop="30dp" android:padding="8dp" android:hint="@string/email" android:inputType="textEmailAddress" android:textColorHint="@color/black" android:textSize="20sp" android:drawablePadding="8dp" android:textColor="@color/black"/>
             <EditText android:id="@+id/signup_password" android:layout_width="350dp" android:layout_height="60dp" android:layout_marginTop="20dp" android:padding="8dp" android:hint="@string/password" android:textSize="20sp" android:inputType="textPassword" android:textColorHint="@color/black" android:drawablePadding="8dp" android:textColor="@color/black"/>
             <EditText android:id="@+id/signup_confirm" android:layout_width="350dp" android:layout_height="60dp" android:layout_marginTop="20dp" android:padding="8dp" android:hint="@string/confirm_password" android:textSize="20sp" android:inputType="textPassword" android:textColorHint="@color/black" android:drawablePadding="8dp" android:textColor="@color/black"/>
+            <!-- Añadir después de Confirmar Contraseña -->
+            <EditText
+                android:id="@+id/signup_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="@usuario"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/signup_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Descripción"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona tus intereses (máx. 5):"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/intereses_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox android:id="@+id/interes1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Música" />
+                <CheckBox android:id="@+id/interes2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deportes" />
+                <CheckBox android:id="@+id/interes3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Arte" />
+                <CheckBox android:id="@+id/interes4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lectura" />
+                <CheckBox android:id="@+id/interes5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Naturaleza" />
+                <CheckBox android:id="@+id/interes6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Videojuegos" />
+            </LinearLayout>
+
+
             <Button android:id="@+id/signup_button" android:layout_width="match_parent" android:layout_height="60dp" android:text="Crear Cuenta" android:layout_marginTop="30dp" android:backgroundTint="@color/teal_200" android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/loginRedirectText"
@@ -22,6 +63,7 @@
                 android:layout_marginTop="20dp" />
 
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Al continuar, aceptas nuestros términos y condiciones" android:layout_gravity="center" android:layout_marginTop="20dp"/>
+
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

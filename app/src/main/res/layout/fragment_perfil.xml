@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Foto y nombre -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +29,7 @@
                 android:id="@+id/tvNombre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carlos Rodríguez"
+                android:text="Nombre del usuario"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"/>
@@ -39,19 +38,17 @@
                 android:id="@+id/tvUsuario"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@carlos_r"
+                android:text="@usuario"
                 android:textColor="@color/gray"/>
         </LinearLayout>
 
-        <!-- Descripción -->
         <TextView
             android:id="@+id/tvDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entusiasta de deportes al aire libre y actividades culturales. Me encanta conocer gente nueva y participar en eventos comunitarios."
+            android:text="Descripción del usuario"
             android:layout_marginTop="16dp"/>
 
-        <!-- Ubicación y fecha -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,19 +59,18 @@
                 android:id="@+id/tvUbicacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bogotá, Colombia"
+                android:text="Ubicación del usuario"
                 android:drawablePadding="8dp"/>
 
             <TextView
                 android:id="@+id/tvFechaUnion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Se unió en Marzo 2025"
+                android:text="Se unió recientemente"
                 android:layout_marginTop="8dp"
                 android:drawablePadding="8dp"/>
         </LinearLayout>
 
-        <!-- Intereses (Quemados en XML) -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,44 +79,22 @@
             android:layout_marginTop="24dp"/>
 
         <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/flexboxIntereses"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            app:flexWrap="wrap">
+            app:flexWrap="wrap" />
 
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Running"
-                app:chipBackgroundColor="@color/chip_background"/>
+        <Button
+            android:id="@+id/btnEditarPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar perfil"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/white"/>
 
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Arte"
-                app:chipBackgroundColor="@color/chip_background"/>
 
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fotografía"
-                app:chipBackgroundColor="@color/chip_background"/>
-
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Senderismo"
-                app:chipBackgroundColor="@color/chip_background"/>
-
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Música"
-                app:chipBackgroundColor="@color/chip_background"/>
-
-        </com.google.android.flexbox.FlexboxLayout>
-
-        <!-- Botón cerrar sesión -->
         <Button
             android:id="@+id/btnCerrarSesion"
             android:layout_width="match_parent"

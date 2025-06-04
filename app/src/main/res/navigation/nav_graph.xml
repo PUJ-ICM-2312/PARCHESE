@@ -46,8 +46,14 @@
 
     <fragment
         android:id="@+id/chatDetailFragment"
-        android:name="com.rajkishorbgp.sign_up_sign_in.ChatDetailFragment"
-        android:label="Chat"/>
+        android:name="com.rajkishorbgp.sign_up_sign_in.fragments.ChatDetailFragment"
+        android:label="ChatDetailFragment"
+        tools:layout="@layout/fragment_chat_detail">
+
+        <argument
+            android:name="chatId"
+            app:argType="string" />
+    </fragment>
 
     <fragment
         android:id="@+id/perfilFragment"

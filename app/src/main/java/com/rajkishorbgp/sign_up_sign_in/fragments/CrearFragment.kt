@@ -70,7 +70,6 @@ class CrearFragment : Fragment() {
             }
         }
 
-        // Restaurar estado visual si ya había valores seleccionados
         selectedImageUri?.let {
             binding.ivImagenSeleccionada.setImageURI(it)
             binding.btnSeleccionarImagen.text = getString(R.string.imagen_seleccionada)
